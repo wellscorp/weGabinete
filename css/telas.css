@@ -1,0 +1,12 @@
+
+
+.formulario{
+    margin: 30px 0 0 0;
+}
+
+.tarefa-form{
+    padding: 0;
+}
+.tarefa-form label{
+    border-right: none;
+}

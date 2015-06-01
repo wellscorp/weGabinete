@@ -1,0 +1,29 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<ion-view view-title="{{notas.descricao}}">
+  <ion-content class="">
+
+
+
+      <div class="item item-input-inset tarefa-form">
+          <label class="item item-input item-floating-label item-input-wrapper label">
+              <span class="input-label">Tarefa</span>
+              <input type="text" id="descricao" placeholder="Tarefa" value="{{tarefas.descricao}}">
+          </label>
+          <a href="#" ng-click="editar({{tarefas.id}})" class="  item-icon-right">
+              <i class="icon ion-plus-round"></i>
+          </a>
+      </div>
+
+      <label class="item item-input item-floating-label">
+          <span class="input-label">Data</span>
+          <input type="date" id="data" placeholder="Data">
+      </label>
+
+
+  </ion-content>
+</ion-view>
